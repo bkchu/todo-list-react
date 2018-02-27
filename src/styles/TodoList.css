@@ -1,0 +1,75 @@
+.TodoList {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.TodoList__input {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #cccccc;
+
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.TodoList__button {
+  display: block;
+  width: 50%;
+  height: auto;
+
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 20px;
+
+  border: none;
+  background-color: rgb(163, 163, 208);
+  box-shadow: 0 2px 3px #cccccc;
+  color: white;
+  font-size: 1.2em;
+  border: 1px solid rgb(130, 130, 208);
+  transition: all 0.1s ease-in-out;
+  transform: scale(1);
+}
+
+.TodoList__button:hover {
+  background-color: rgb(130, 130, 208);
+  transform: scale(1.05);
+}
+.TodoList__button:active {
+  background-color: rgb(130, 130, 208);
+  transform: scale(0.95);
+}
+
+.TodoItem {
+  width: 33%;
+  height: auto;
+
+  margin: 10px auto;
+  padding: 20px;
+
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 3px #cccccc;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.TodoItem:hover {
+  transform: scale(1.02);
+  background-color: rgb(221, 142, 142);
+  border: 1px solid rgb(228, 112, 112);
+  color: white;
+}
+.TodoItem:active {
+  transform: scale(0.98);
+  background-color: rgb(221, 142, 142);
+  border: 1px solid rgb(228, 112, 112);
+  color: white;
+}
