@@ -12,12 +12,17 @@
   margin: 0 auto;
   padding: 20px;
 
-  border: 1px solid #eeeeee;
+  border: 2px solid #eeeeee;
   box-shadow: 0 2px 3px #cccccc;
 
   text-align: center;
   font-size: 1.2em;
   font-weight: bolder;
+}
+
+.TodoList__input:focus {
+  outline: none;
+  border: 2px solid rgb(163, 163, 208);
 }
 
 .TodoList__button {
@@ -34,17 +39,18 @@
   box-shadow: 0 2px 3px #cccccc;
   color: white;
   font-size: 1.2em;
-  border: 1px solid rgb(130, 130, 208);
+  font-weight: bolder;
+  border: 1px solid rgb(163, 163, 208);
   transition: all 0.1s ease-in-out;
   transform: scale(1);
 }
 
 .TodoList__button:hover {
-  background-color: rgb(130, 130, 208);
+  background-color: rgb(163, 163, 208);
   transform: scale(1.05);
 }
 .TodoList__button:active {
-  background-color: rgb(130, 130, 208);
+  background-color: rgb(163, 163, 208);
   transform: scale(0.95);
 }
 
@@ -57,6 +63,7 @@
 
   border: 1px solid #eeeeee;
   box-shadow: 0 2px 3px #cccccc;
+  font-size: 1.2em;
 
   transition: all 0.1s ease-in-out;
 }
@@ -67,6 +74,7 @@
   border: 1px solid rgb(228, 112, 112);
   color: white;
 }
+
 .TodoItem:active {
   transform: scale(0.98);
   background-color: rgb(221, 142, 142);
